@@ -1,4 +1,6 @@
-#!/bin/bash
+!/bin/bash
+
+
 
 
 if [ -e Radovi/$1/ ]; then
@@ -6,18 +8,19 @@ if [ -e Radovi/$1/ ]; then
 else
   mkdir Radovi/$1/
 
-  mkdir Radovi/$1/'dr. sc. Elmir Babović'
-  echo >> Radovi/$1/'dr. sc. Elmir Babović'/README.md
- 
-  mkdir Radovi/$1/'dr. sc. Denis Mušić'
-  echo >> Radovi/$1/'dr. sc. Denis Mušić'/README.md
+  declare -a profesori=(
+    "dr. sc. Elmir Babović" 
+    "dr. sc. Denis Mušić" 
+    "dr. sc. Jasmin Azemović"
+    "dr. sc. Nina Bijedić"
+    "dr. sc. Emina Junuz"
+  )
 
-  mkdir Radovi/$1/'dr. sc. Jasmin Azemović'
-  echo >> Radovi/$1/'dr. sc. Jasmin Azemović'/README.md
-  
-  mkdir Radovi/$1/'dr. sc. Nina Bijedić'
-  echo >> Radovi/$1/'dr. sc. Nina Bijedić'/README.md
+  for (( i = 0; i < ${#profesori[@]}; i++ ))
+    do
+      mkdir Radovi/$1/"${profesori[$i]}"/
+      echo >> Radovi/$1/"${profesori[$i]}"/README.md
+    done
 
-  mkdir Radovi/$1/'dr. sc. Emina Junuz'
-  echo >> Radovi/$1/'dr. sc. Emina Junuz'/README.md
+  echo "* [$1](./Radovi/$1)" >> README.md
 fi
