@@ -21,6 +21,7 @@ else
     do
       mkdir Radovi/$1/"${profesori[$i]}"/
       echo >> Radovi/$1/"${profesori[$i]}"/README.md
+      cat table-template.html > Radovi/$1/"${profesori[$i]}"/README.md
     done
 
   echo "* [$1](./Radovi/$1)" >> README.md
