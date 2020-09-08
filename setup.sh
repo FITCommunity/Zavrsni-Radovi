@@ -14,6 +14,7 @@ else
     "dr. sc. Jasmin Azemović"
     "dr. sc. Nina Bijedić"
     "dr. sc. Emina Junuz"
+    "dr. sc. Senad Rahimić"
   )
 
   for (( i = 0; i < ${#profesori[@]}; i++ ))
