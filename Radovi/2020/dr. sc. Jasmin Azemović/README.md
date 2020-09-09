@@ -8,9 +8,9 @@
     </thead>
     <tbody>
         <tr>
+            <td><a href="#">5G uticaj, sigurnosni zahtjevi i izazovi, poređenje s mrežama prethodnih generacija</a></td>
+            <td><a href="https://github.com/eminleet">Emin Hajdarević</a></td>
             <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#">Link</a></td>
         </tr>
     </tbody>
 <table>
