@@ -8,9 +8,9 @@
     </thead>
     <tbody>
         <tr>
+            <td><a href="#">Razvoj kliničkog informacionong sistema</a></td>
+            <td><a href="#">Mirza Smajić</a></td>
             <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#">Link</a></td>
         </tr>
     </tbody>
 <table>
