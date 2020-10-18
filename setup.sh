@@ -1,8 +1,5 @@
 !/bin/bash
 
-
-
-
 if [ -e Radovi/$1/ ]; then
   echo "Folder Radovi/$1/ već postoji!"
 else
@@ -25,4 +22,3 @@ else
     done
 
   echo "* [$1](./Radovi/$1)" >> README.md
-fi
