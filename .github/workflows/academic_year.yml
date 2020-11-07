@@ -1,0 +1,23 @@
+name: Automation
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 1 10 *'
+
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    
+    ## Uncomment "steps" in the actual repository
+    steps:
+      - uses: actions/checkout@master
+      - run: |
+          git pull
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          bash setup.sh `date +'%Y'`
+          git add .
+          git commit -m "Setup for new academic year"
+          git push
