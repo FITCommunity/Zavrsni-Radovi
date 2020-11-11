@@ -8,9 +8,9 @@
     </thead>
     <tbody>
         <tr>
+            <td><a href="#">Tarik Šuta</a></td>
+            <td><a href="#">Aplikacija za usloge prevoznih preduzeća - eBus</a></td>
             <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#">Link</a></td>
         </tr>
     </tbody>
 <table>
