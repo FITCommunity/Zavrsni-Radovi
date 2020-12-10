@@ -12,5 +12,10 @@
             <td><a href="#">Aplikacija za usloge prevoznih preduzeća - eBus</a></td>
             <td><a href="#"></a></td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/neurouz">Ajdin Hukara</a></td>
+            <td><a href="#">eToolService - Aplikacija za podršku rada kompanije za oštrenje i proizvodnju alata</a></td>
+            <td><a href="https://github.com/neurouz/EToolService">Link</a></td>
+        </tr>
     </tbody>
 <table>
