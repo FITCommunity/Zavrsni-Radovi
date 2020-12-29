@@ -32,5 +32,30 @@
             <td><a href="#">Nisvet Mujkić</a></td>
             <td><a href="#"></a></td>
         </tr>
+        <tr>
+            <td><a href="#">Razvoj aplikacije za obračun plata</a></td>
+            <td><a href="#">Muhamed Karajić</a></td>
+            <td><a href="#"></a></td>
+        </tr>
+        <tr>
+            <td><a href="#">Razvoj aplikacije za podršku rada knjigovodstvene agencije – Modul za klijente</a></td>
+            <td><a href="#">Haris Handžić</a></td>
+            <td><a href="#"></a></td>
+        </tr>
+        <tr>
+            <td><a href="#">Razvoj aplikacije za podršku rada knjigovodstvene agencije – Modul za administratore</a></td>
+            <td><a href="#">Ahmed Suljić</a></td>
+            <td><a href="#"></a></td>
+        </tr>
+        <tr>
+            <td><a href="#">Izrada aplikacije za organizaciju javnih događaja</a></td>
+            <td><a href="#">Kenan Selimović</a></td>
+            <td><a href="#"></a></td>
+        </tr>
+        <tr>
+            <td><a href="#">Razvoj web aplikacije za podršku rada studentske organizacije BEST u Mostaru</a></td>
+            <td><a href="#">Fahrudin Halilović</a></td>
+            <td><a href="#"></a></td>
+        </tr>
     </tbody>
 <table>
