@@ -1,7 +1,7 @@
 ---
 name: Request for new entry
 about: Koristite ovaj template da prijavite novi završni rad za dodavanje
-labels: 'type:request'
+labels: 'request'
 
 ---
 
